@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Environment variables (contains secrets!)
+.env
+
+# Logs
+*.log
+/var/log/
+
+# Runtime files
+*.pid
+nohup.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Service configs with real secrets (use .example versions)
+mattermost-bot.service
+supervisord.conf
